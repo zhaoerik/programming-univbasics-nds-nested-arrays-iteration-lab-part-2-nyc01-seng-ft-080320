@@ -7,7 +7,7 @@ def find_min_in_nested_arrays(src)
     element_index = 0
     smallest_number = 0
     while element_index < src[row_index].count do
-      if src[row_index][element_index] = src[row_index].minimum
+      if src[row_index][element_index] = src[row_index].min
         smallest_number = src[row_index][element_index]
       end
       element_index += 1
